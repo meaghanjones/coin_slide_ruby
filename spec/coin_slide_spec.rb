@@ -2,7 +2,7 @@ require('rspec')
 require('capybara')
 require('coin_slide.rb')
 
-describe('String#coin_slide') do\
+describe('String#coin_slide') do
 
   it('given 50 it should return [2,0,0,0]') do
     expect("50".coin_slide()).to eq([2,0,0,0])

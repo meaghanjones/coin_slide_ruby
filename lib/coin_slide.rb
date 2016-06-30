@@ -2,7 +2,6 @@ class String
   def coin_slide()
     coin_array = []
     n = self.gsub(/\./, "").to_i
-    puts n
     coin_array.push(n/25)
     n = n%25
     coin_array.push(n/10)
